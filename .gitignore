@@ -1,0 +1,8 @@
+node_modules/
+dist/
+data/
+.chrome-*/
+shot-*.png
+.test-*.mjs
+.shot-*.mjs
+*.log
