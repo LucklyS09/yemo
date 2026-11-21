@@ -1,0 +1,139 @@
+{
+  "entries": [
+    {
+      "id": "s_people",
+      "parentId": null,
+      "order": 1,
+      "kind": "设定",
+      "title": "人物",
+      "color": "#8f8a99",
+      "aliases": [],
+      "term": false,
+      "body": "故事里的人物关系，以及他们不肯说出口的秘密。"
+    },
+    {
+      "id": "s_shenyan",
+      "parentId": "s_people",
+      "order": 1,
+      "kind": "人物",
+      "title": "沈砚",
+      "color": "#f5c97b",
+      "aliases": [
+        "阿砚",
+        "砚哥"
+      ],
+      "term": true,
+      "body": "雾隐渡最后的摆渡人，二十七岁。沉默，习惯把话留在心里。左手腕有一道旧疤，每逢下雨便会发烫。\n\n他守着渡口十年，等的不是船，是一个解释。"
+    },
+    {
+      "id": "s_shenyan_scar",
+      "parentId": "s_shenyan",
+      "order": 1,
+      "kind": "设定",
+      "title": "沈砚的旧疤",
+      "color": "#f5c97b",
+      "aliases": [],
+      "term": false,
+      "body": "形状像一枚合拢的铃。下雨时发烫，靠近河底城时会轻轻震动。\n\n这是十年前那场「长夜潮」留给他的唯一证据。"
+    },
+    {
+      "id": "s_linwan",
+      "parentId": "s_people",
+      "order": 2,
+      "kind": "人物",
+      "title": "林晚",
+      "color": "#f472b6",
+      "aliases": [
+        "晚娘"
+      ],
+      "term": true,
+      "body": "河底城的守灯人。看上去二十五岁，实际年龄无人知晓。说话很轻，像怕惊动水面。\n\n她认识沈砚，却坚持说这是第一次见面。"
+    },
+    {
+      "id": "s_places",
+      "parentId": null,
+      "order": 2,
+      "kind": "设定",
+      "title": "地点",
+      "color": "#8f8a99",
+      "aliases": [],
+      "term": false,
+      "body": "雾隐渡、河底城，以及那条在夜里会改变方向的河。"
+    },
+    {
+      "id": "s_ferry",
+      "parentId": "s_places",
+      "order": 1,
+      "kind": "设定",
+      "title": "雾隐渡",
+      "color": "#5eead4",
+      "aliases": [
+        "渡口"
+      ],
+      "term": true,
+      "body": "一座被雾气包住的旧渡口。白天没有船，夜里没有灯。\n\n渡口旧规：子时听见船桨声，不可回头；若回头，须留下一件比命更重的东西。"
+    },
+    {
+      "id": "s_rivercity",
+      "parentId": "s_places",
+      "order": 2,
+      "kind": "地点",
+      "title": "河底城",
+      "color": "#86efac",
+      "aliases": [
+        "倒悬城"
+      ],
+      "term": true,
+      "body": "沉在河底的城，屋檐朝下，灯火朝上。每盏灯里都关着一个被河水记住的人。\n\n城中央有一座没有门的钟楼，等一枚铃来敲响。"
+    },
+    {
+      "id": "s_things",
+      "parentId": null,
+      "order": 3,
+      "kind": "设定",
+      "title": "物与概念",
+      "color": "#8f8a99",
+      "aliases": [],
+      "term": false,
+      "body": "推动故事的小物件，和那些不该被叫出名字的东西。"
+    },
+    {
+      "id": "s_bell",
+      "parentId": "s_things",
+      "order": 1,
+      "kind": "物品",
+      "title": "引魂铃",
+      "color": "#fbbf24",
+      "aliases": [
+        "铜铃",
+        "旧铜铃"
+      ],
+      "term": true,
+      "body": "一枚没有舌的铜铃，落水不沉，遇火不热。\n\n传说它响一次，河就会记住一个名字；响三次，河就会忘记一个人。"
+    },
+    {
+      "id": "s_tide",
+      "parentId": "s_things",
+      "order": 2,
+      "kind": "概念",
+      "title": "长夜潮",
+      "color": "#a78bfa",
+      "aliases": [
+        "黑潮"
+      ],
+      "term": true,
+      "body": "每十年涨一次的黑色潮水。潮水过处，灯火熄灭，人的名字会从旁人记忆里一点点消失。\n\n上一次长夜潮，带走了整条河。"
+    },
+    {
+      "id": "s_mwpzfh1yie089",
+      "parentId": "s_people",
+      "order": 3,
+      "kind": "人物",
+      "title": "新的子条目",
+      "color": "#f472b6",
+      "aliases": [],
+      "term": true,
+      "body": ""
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "demo_changye",
+  "title": "长夜行舟",
+  "category": "示例",
+  "summary": "雾隐渡的灯十年未亮。直到一个雨夜，沈砚在河滩捡到一枚会呼吸的铜铃，失踪的摆渡人撑着空船归来，而船上坐着一个不该存在的人。",
+  "cover": "ember",
+  "goal": 120000,
+  "autoHighlight": true,
+  "wordCount": 2060,
+  "draftCount": 3,
+  "createdAt": "2026-10-02T09:30:00.000Z",
+  "updatedAt": "2026-11-21T06:36:03.316Z",
+  "lastActiveAt": "2026-11-21T06:36:03.316Z"
+}

@@ -1,0 +1,21 @@
+{
+    "version":  1,
+    "categories":  [
+                       {
+                           "name":  "玄幻",
+                           "color":  "#a78bfa"
+                       },
+                       {
+                           "name":  "都市",
+                           "color":  "#67e8f9"
+                       },
+                       {
+                           "name":  "悬疑",
+                           "color":  "#f472b6"
+                       },
+                       {
+                           "name":  "示例",
+                           "color":  "#f5c97b"
+                       }
+                   ]
+}

@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-CN" data-scheme="dark" data-accent="jade">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#06070b">
+  <meta name="description" content="墨夜 · 一个好看的本地小说创作空间。大纲、设定集与带颜色的正文，都收在这里。">
+  <title>墨夜 · 小说创作空间</title>
+  <script>
+    (function () {
+      try {
+        var root = document.documentElement;
+        var scheme = localStorage.getItem('ink.scheme');
+        var accent = localStorage.getItem('ink.accent');
+        if (scheme === 'light' || scheme === 'dark') root.dataset.scheme = scheme;
+        if (accent === 'jade' || accent === 'blue' || accent === 'red' || accent === 'amber') root.dataset.accent = accent;
+        var meta = document.querySelector('meta[name="theme-color"]');
+        if (meta) meta.setAttribute('content', root.dataset.scheme === 'light' ? '#f3f0e8' : '#06070b');
+      } catch (error) { /* localStorage can be unavailable */ }
+    })();
+  </script>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop stop-color='%2358b99a'/%3E%3Cstop offset='1' stop-color='%2379b69e'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='%23090b11'/%3E%3Cpath d='M43 14a20 20 0 1 0 8 30 16 16 0 0 1-8-30Z' fill='url(%23g)'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/css/base.css">
+  <link rel="stylesheet" href="/css/shell.css">
+  <link rel="stylesheet" href="/css/views.css">
+  <link rel="stylesheet" href="/css/editor.css">
+  <link rel="stylesheet" href="/css/theme.css">
+</head>
+<body data-pattern="stars">
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__wash"></div>
+    <div class="ambient__pattern ambient__pattern--stars">
+      <svg class="doodle-stars" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+        <defs>
+          <path id="doodleStar" d="M0 -27 C3 -18 6 -12 9 -9 C17 -11 24 -9 29 -6 C22 -1 17 3 10 7 C12 15 14 22 17 28 C9 23 4 19 0 13 C-5 18 -11 23 -18 28 C-15 20 -13 14 -10 7 C-17 3 -23 -1 -28 -6 C-19 -8 -12 -10 -6 -9 C-4 -16 -2 -22 0 -27 Z" />
+          <path id="doodleStarAlt" d="M2 -25 C4 -17 6 -13 8 -10 C16 -13 22 -11 27 -8 C22 -2 18 1 12 6 C13 14 16 21 19 27 C11 23 6 20 2 15 C-3 19 -8 22 -15 26 C-12 18 -11 13 -9 8 C-16 4 -21 0 -25 -5 C-18 -7 -12 -8 -7 -8 C-4 -15 -1 -21 2 -25 Z" />
+          <path id="doodleSpark" d="M0 -14 C1 -5 4 -2 13 0 C4 2 1 5 0 14 C-1 5 -4 2 -13 0 C-4 -2 -1 -5 0 -14 Z" />
+        </defs>
+        <g class="doodle-star twinkle" style="--delay: 0.4s" transform="translate(142 152) rotate(-14) scale(1.02)"><use href="#doodleStar"/></g>
+        <g class="doodle-star is-soft is-thin" transform="translate(426 88) rotate(20) scale(0.46)"><use href="#doodleStarAlt"/></g>
+        <g class="doodle-star is-accent twinkle is-bold" style="--delay: 2.1s" transform="translate(1480 142) rotate(8) scale(1.14)"><use href="#doodleStar"/></g>
+        <g class="doodle-star is-soft is-thin" transform="translate(1266 306) rotate(-22) scale(0.4)"><use href="#doodleStarAlt"/></g>
+        <g class="doodle-star twinkle is-bold" style="--delay: 3.4s" transform="translate(94 708) rotate(16) scale(0.86)"><use href="#doodleStar"/></g>
+        <g class="doodle-star is-soft" transform="translate(354 898) rotate(-8) scale(0.55)"><use href="#doodleStarAlt"/></g>
+        <g class="doodle-star twinkle" style="--delay: 1.3s" transform="translate(1502 786) rotate(-18) scale(0.76)"><use href="#doodleStar"/></g>
+        <g class="doodle-star is-soft" transform="translate(1018 924) rotate(12) scale(0.36)"><use href="#doodleStar"/></g>
+        <g class="doodle-star is-accent is-thin" transform="translate(1122 92) rotate(-26) scale(0.5)"><use href="#doodleStarAlt"/></g>
+        <g class="doodle-star is-soft" transform="translate(774 164) rotate(18) scale(0.3)"><use href="#doodleStar"/></g>
+        <g class="doodle-star is-soft is-thin" transform="translate(44 432) rotate(8) scale(0.4)"><use href="#doodleStar"/></g>
+        <g class="doodle-star" transform="translate(1518 522) rotate(-10) scale(0.42)"><use href="#doodleStarAlt"/></g>
+        <g class="doodle-star is-soft is-thin" transform="translate(606 46) rotate(-5) scale(0.3)"><use href="#doodleStar"/></g>
+        <g class="doodle-star twinkle" style="--delay: 4.2s" transform="translate(704 926) rotate(22) scale(0.28)"><use href="#doodleStarAlt"/></g>
+        <g class="doodle-star is-soft is-thin" transform="translate(318 318) rotate(-16) scale(0.42)"><use href="#doodleStarAlt"/></g>
+        <g class="doodle-star" transform="translate(286 458) rotate(12) scale(0.28)"><use href="#doodleStar"/></g>
+        <g class="doodle-star is-soft" transform="translate(352 702) rotate(6) scale(0.34)"><use href="#doodleStarAlt"/></g>
+        <g class="doodle-star" transform="translate(322 872) rotate(21) scale(0.5)"><use href="#doodleStar"/></g>
+        <g class="doodle-star is-soft is-thin" transform="translate(1552 302) rotate(14) scale(0.36)"><use href="#doodleStarAlt"/></g>
+        <g class="doodle-star" transform="translate(1578 470) rotate(-9) scale(0.3)"><use href="#doodleStar"/></g>
+        <g class="doodle-star is-soft" transform="translate(1540 664) rotate(-19) scale(0.46)"><use href="#doodleStarAlt"/></g>
+        <g class="doodle-star twinkle" style="--delay: 3s" transform="translate(1460 930) rotate(10) scale(0.38)"><use href="#doodleStar"/></g>
+        <g class="doodle-star is-soft is-thin" transform="translate(430 330) rotate(24) scale(0.24)"><use href="#doodleStarAlt"/></g>
+        <g class="doodle-star is-soft" transform="translate(1180 360) rotate(-12) scale(0.28)"><use href="#doodleStar"/></g>
+        <g class="doodle-star is-soft is-thin" transform="translate(1340 760) rotate(16) scale(0.32)"><use href="#doodleStarAlt"/></g>
+        <g class="doodle-star twinkle" style="--delay: 5.3s" transform="translate(880 880) rotate(-22) scale(0.26)"><use href="#doodleStar"/></g>
+        <g class="doodle-spark" transform="translate(370 240) rotate(12) scale(0.58)"><use href="#doodleSpark"/></g>
+        <g class="doodle-spark" transform="translate(1556 776) rotate(-8) scale(0.5)"><use href="#doodleSpark"/></g>
+        <g class="doodle-spark" transform="translate(526 236) rotate(12) scale(0.72)"><use href="#doodleSpark"/></g>
+        <g class="doodle-spark is-accent" transform="translate(1388 544) rotate(-8) scale(0.48)"><use href="#doodleSpark"/></g>
+        <g class="doodle-spark" transform="translate(220 540) rotate(20) scale(0.42)"><use href="#doodleSpark"/></g>
+        <g class="doodle-spark" transform="translate(886 78) rotate(-16) scale(0.36)"><use href="#doodleSpark"/></g>
+      </svg>
+    </div>
+    <div class="ambient__pattern ambient__pattern--ink"></div>
+    <div class="ambient__pattern ambient__pattern--grid"></div>
+    <div class="ambient__pattern ambient__pattern--mountains">
+      <svg class="mountain-scene" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMax slice" aria-hidden="true" focusable="false">
+        <circle class="mountain-moon" cx="1280" cy="242" r="82" />
+        <path class="mountain-back" d="M-80 760 C 80 700 160 620 270 650 C 380 680 430 730 520 690 C 640 640 720 560 850 620 C 980 680 1040 720 1150 670 C 1270 615 1340 580 1450 640 C 1540 690 1600 700 1680 660 L1680 1000 L-80 1000 Z" />
+        <path class="mountain-mid" d="M-60 830 C 100 770 190 720 300 760 C 430 808 520 800 630 760 C 760 710 860 680 980 730 C 1100 780 1210 810 1330 760 C 1450 710 1560 730 1660 790 L1660 1000 L-60 1000 Z" />
+        <path class="mountain-front" d="M-80 900 C 80 840 220 820 360 860 C 520 905 640 880 780 840 C 930 795 1080 840 1220 870 C 1370 902 1520 880 1680 830 L1680 1000 L-80 1000 Z" />
+        <path class="mountain-ridge" d="M-60 830 C 100 770 190 720 300 760 C 430 808 520 800 630 760 C 760 710 860 680 980 730 C 1100 780 1210 810 1330 760 C 1450 710 1560 730 1660 790" />
+      </svg>
+    </div>
+    <div class="ambient__pattern ambient__pattern--tide">
+      <svg class="tide-scene" viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+        <circle class="tide-moon" cx="1216" cy="278" r="74" />
+        <path class="tide-line tide-line--1" d="M-140 620 C 140 570 320 690 590 640 C 860 590 1030 540 1240 610 C 1430 672 1550 680 1720 620" />
+        <path class="tide-line tide-line--2" d="M-140 706 C 160 650 340 776 620 716 C 900 656 1060 620 1270 690 C 1450 748 1570 758 1720 700" />
+        <path class="tide-line tide-line--3" d="M-140 792 C 180 730 360 860 650 796 C 940 732 1080 706 1300 772 C 1480 828 1600 842 1720 786" />
+        <path class="tide-line tide-line--4" d="M-140 880 C 200 812 390 940 690 876 C 980 814 1130 790 1340 850 C 1510 900 1620 920 1720 872" />
+        <path class="tide-line tide-line--5" d="M-140 952 C 220 896 420 1000 720 950 C 1010 902 1180 880 1380 930 C 1530 968 1640 978 1720 948" />
+      </svg>
+    </div>
+    <div class="ambient__pattern ambient__pattern--mist"></div>
+    <div class="ambient__cursor" id="cursorGlow"></div>
+    <div class="ambient__vignette"></div>
+    <div class="ambient__grain"></div>
+  </div>
+
+  <div class="app-shell" id="appShell">
+    <aside class="sidebar" id="sidebar" aria-label="书架"></aside>
+    <div class="sidebar-scrim" id="sidebarScrim" hidden></div>
+    <div class="main-column">
+      <header class="topbar" id="topbar"></header>
+      <main class="view-root" id="viewRoot">
+        <div class="view-loading">
+          <span class="spinner"></span>
+          <span>正在铺开稿纸…</span>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <div id="popoverRoot"></div>
+  <div id="modalRoot"></div>
+  <div id="toastRoot" aria-live="polite"></div>
+
+  <div class="boot-screen" id="bootScreen">
+    <div class="boot-screen__mark">
+      <span class="brand-emblem"><span></span></span>
+    </div>
+    <div class="boot-screen__title">墨夜</div>
+    <div class="boot-screen__sub">INK NOCTURNE</div>
+    <div class="boot-screen__line"><span></span></div>
+  </div>
+
+  <noscript>请启用 JavaScript，墨夜才能打开你的故事。</noscript>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

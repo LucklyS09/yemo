@@ -1,0 +1,155 @@
+{
+  "style": "timeline",
+  "beats": [
+    {
+      "id": "b_demo_01",
+      "stage": "rise",
+      "title": "雨夜拾铃",
+      "summary": "沈砚在渡口收船，河滩上传来一声不该存在的铃响。他在淤泥里捡到一枚温热的旧铜铃。"
+    },
+    {
+      "id": "b_demo_02",
+      "stage": "prologue",
+      "title": "空船归来",
+      "summary": "子时，失踪十年的摆渡人撑着空船靠岸。船上没人，只有一盏还亮着的河灯。"
+    },
+    {
+      "id": "b_demo_03",
+      "stage": "rise",
+      "title": "河底有城",
+      "summary": "铜铃在午夜开口，引沈砚潜入河底。倒悬的城池里，林晚守着一盏烧了十年的灯。"
+    },
+    {
+      "id": "b_demo_04",
+      "stage": "rise",
+      "title": "灯下故人",
+      "summary": "林晚认得那枚铜铃，也认得沈砚手腕上的旧疤。她告诉他：十年前失踪的不是船，是整条河。"
+    },
+    {
+      "id": "b_demo_05",
+      "stage": "rise",
+      "title": "第一次回头",
+      "summary": "旧规说听见船桨不能回头。沈砚回了头，看见渡口站着另一个自己。"
+    },
+    {
+      "id": "b_demo_06",
+      "stage": "develop",
+      "title": "长夜潮至",
+      "summary": "黑潮漫过渡口，小镇开始忘记所有人的名字。沈砚必须在天亮前敲响引魂铃。"
+    },
+    {
+      "id": "b_demo_07",
+      "stage": "develop",
+      "title": "归舟",
+      "summary": "铃声响起，河面重新有了灯。林晚留在河底，沈砚撑船离开，而船头多了一枚不会再响的铜铃。"
+    },
+    {
+      "id": "b_mwptwtmrxon1s",
+      "stage": "prologue",
+      "title": "序章：一个旧传说",
+      "summary": ""
+    },
+    {
+      "id": "b_mwptwtmsw2ktq",
+      "stage": "rise",
+      "title": "开端：主角的日常被打破",
+      "summary": ""
+    },
+    {
+      "id": "b_mwptwtmsi6typ",
+      "stage": "develop",
+      "title": "发展：追寻与试探",
+      "summary": ""
+    },
+    {
+      "id": "b_mwptwtmskkin1",
+      "stage": "develop",
+      "title": "高潮：真相与抉择",
+      "summary": ""
+    },
+    {
+      "id": "b_mwptwtmshcts7",
+      "stage": "develop",
+      "title": "结局：留下的与失去的",
+      "summary": ""
+    },
+    {
+      "id": "b_mwptwww34as18",
+      "stage": "prologue",
+      "title": "序章：一个旧传说",
+      "summary": ""
+    },
+    {
+      "id": "b_mwptwww3vcir4",
+      "stage": "rise",
+      "title": "开端：主角的日常被打破",
+      "summary": ""
+    },
+    {
+      "id": "b_mwptwww3bjxz4",
+      "stage": "develop",
+      "title": "发展：追寻与试探",
+      "summary": ""
+    },
+    {
+      "id": "b_mwptwww3kjoju",
+      "stage": "develop",
+      "title": "高潮：真相与抉择",
+      "summary": ""
+    },
+    {
+      "id": "b_mwptwww3s4ca6",
+      "stage": "develop",
+      "title": "结局：留下的与失去的",
+      "summary": ""
+    },
+    {
+      "id": "b_mwq04lys4zep7",
+      "stage": "prologue",
+      "title": "序章：一个旧传说",
+      "summary": ""
+    },
+    {
+      "id": "b_mwq04lysg6yar",
+      "stage": "develop",
+      "title": "发展：追寻与试探",
+      "summary": ""
+    },
+    {
+      "id": "b_mwq04lysrnj5d",
+      "stage": "develop",
+      "title": "高潮：真相与抉择",
+      "summary": ""
+    },
+    {
+      "id": "b_mwq04lys1cio9",
+      "stage": "develop",
+      "title": "结局：留下的与失去的",
+      "summary": ""
+    },
+    {
+      "id": "b_mwq04umdpcu3g",
+      "stage": "rise",
+      "title": "开端：主角的日常被打破",
+      "summary": ""
+    },
+    {
+      "id": "b_mwq04umdg9fsw",
+      "stage": "develop",
+      "title": "发展：追寻与试探",
+      "summary": ""
+    },
+    {
+      "id": "b_mwq04umdqmlvx",
+      "stage": "develop",
+      "title": "高潮：真相与抉择",
+      "summary": ""
+    },
+    {
+      "id": "b_mwq04umdrb21k",
+      "stage": "develop",
+      "title": "结局：留下的与失去的",
+      "summary": ""
+    }
+  ]
+}
